@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="240" viewBox="0 0 720 240" role="img" aria-labelledby="title desc">
+  <title id="title">StockRani Studio logo</title><desc id="desc">A plum emblem with a saffron spark and a simple open-book shape, alongside the StockRani Studio wordmark.</desc>
+  <rect width="720" height="240" rx="28" fill="#FFF8F0"/>
+  <circle cx="120" cy="120" r="70" fill="#54264D"/>
+  <path d="M78 100c17-7 30-3 42 7 12-10 25-14 42-7v48c-17-7-30-3-42 7-12-10-25-14-42-7v-48z" fill="none" stroke="#FFF8F0" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M120 107v48" stroke="#F2B84B" stroke-width="5" stroke-linecap="round"/>
+  <path d="M160 68l5 13 13 5-13 5-5 13-5-13-13-5 13-5z" fill="#F2B84B"/>
+  <text x="220" y="113" font-family="Georgia, 'Times New Roman', serif" font-size="47" font-weight="700" fill="#54264D">Stock<tspan fill="#C47A16">Rani</tspan></text>
+  <text x="222" y="159" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" letter-spacing="5" fill="#54264D">STUDIO</text>
+</svg>
