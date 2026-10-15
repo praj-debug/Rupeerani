@@ -8,8 +8,8 @@ RupeeRani is being built to make money decisions easier to understand for young 
 
 ## Start here
 
-- [Founder story](01-founder-story/README.md)
-- [Brand foundation: vision, mission and values](02-brand-foundation/README.md)
+- [Founder story: why RupeeRani started](01-founder-story/README.md)
+- [Brand foundation: purpose, vision, mission and values](02-brand-foundation/README.md)
 - [Brand identity and messaging](03-brand-identity/README.md)
 - [Audience research](04-audience-research/README.md)
 - [Content strategy](05-content-strategy/README.md)
@@ -21,6 +21,16 @@ RupeeRani is being built to make money decisions easier to understand for young 
 - [Metrics and progress log](11-metrics-and-progress/README.md)
 - [Roadmap](12-roadmap/README.md)
 - [Brand assets](assets/README.md)
+
+## Why RupeeRani Exists
+
+RupeeRani grew from founder Prajakta Mane's professional journey around financial services, lending and education loans. Seeing the financial decisions students and young adults have to navigate led her to think about how people can make better decisions when the underlying concepts are difficult to understand.
+
+StockRani began in August 2022 with a focus on stock-market education. The idea later expanded to broader personal finance, career resources and explainers about companies and business models. RupeeRani became the umbrella brand for that wider vision.
+
+The ambition is to go beyond disconnected tips and explain the what, why and how behind money concepts in clear, practical and responsible language. This is a founder-led motivation and an evolving hypothesis that will be tested through audience research and feedback.
+
+Read the [full founder story](01-founder-story/README.md).
 
 ## The brand
 
