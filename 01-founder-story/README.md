@@ -18,10 +18,6 @@ This is a hypothesis to validate with audience conversations and evidence, not a
 
 The ambition is to create a clear, practical and trustworthy home for financial education. The brand should help people ask better questions, understand options and recognise when they need advice specific to their circumstances.
 
-## Founder portrait
-
-Add the approved founder photo to `../assets/prajakta-mane-founder.jpg` when available. Do not use synthetic or unrelated imagery as the founder portrait.
-
 ## Timeline
 
 | Date | Milestone | Evidence or link |
