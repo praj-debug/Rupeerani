@@ -97,7 +97,7 @@ RupeeRani was initiated by **Prajakta Mane**, a FinTech Product Operations and S
 
 This is an early-stage, founder-led project repository. The structure establishes how the work will be documented. It does not imply that every planned brand property, website feature, audience outcome or revenue stream is live.
 
-Track real updates in [Metrics and Progress](11-brand-family/README.md) and record priorities in the [Roadmap](12-roadmap/README.md).
+Track real updates in [Metrics and Progress](11-metrics-and-progress/README.md) and record priorities in the [Roadmap](12-roadmap/README.md).
 
 ## Repository map
 
