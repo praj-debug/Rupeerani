@@ -6,15 +6,25 @@ RupeeRani exists to make financial knowledge more accessible, practical and unde
 
 Through its content and future products, RupeeRani aims to help people make informed financial decisions without feeling intimidated by jargon, overwhelmed by information or dependent on others to understand their own money.
 
-## 2. Vision
+## 2. Why We Exist
+
+RupeeRani grew from the founder's professional experience around financial services, lending and education loans. That journey raised a recurring question: how can people make important financial decisions if they have not had the chance to understand the fundamentals behind them?
+
+Financial content is widely available, but the founder saw an opportunity for explanations that connect the dots: what a financial concept or product is, why it exists, how it works, what trade-offs matter and how it connects to everyday life.
+
+StockRani began with a focus on stock-market education in August 2022. The vision later expanded beyond investing to broader personal finance, career resources and explainers about companies and business models. RupeeRani became the umbrella for that wider direction.
+
+This is the founder's motivation and a starting hypothesis, not a claim that the audience need has already been fully validated. Research and audience feedback should shape what the brand builds next.
+
+## 3. Vision
 
 To help build a financially informed generation of young Indians who can make money decisions with greater clarity, confidence and independence.
 
-## 3. Mission
+## 4. Mission
 
 To simplify personal finance, credit, saving and investing through accessible education, practical resources and honest explanations of how money works in real life.
 
-## 4. Who We Serve
+## 5. Who We Serve
 
 RupeeRani primarily serves:
 
@@ -25,7 +35,7 @@ RupeeRani primarily serves:
 
 These audience groups are a starting point. RupeeRani should use audience feedback and content performance to identify which group to serve first.
 
-## 5. Core Principles
+## 6. Core Principles
 
 **Clarity over complexity:** Explain financial concepts in simple language without sacrificing accuracy.
 
@@ -41,7 +51,7 @@ These audience groups are a starting point. RupeeRani should use audience feedba
 
 **Learning in public:** Document experiments, lessons, mistakes and progress honestly as the brand develops.
 
-## 6. Brand Architecture
+## 7. Brand Architecture
 
 RupeeRani is the umbrella brand. Its initiatives serve distinct but complementary purposes:
 
@@ -51,13 +61,13 @@ RupeeRani is the umbrella brand. Its initiatives serve distinct but complementar
 
 Each initiative should strengthen RupeeRani's broader mission while maintaining a clear audience, purpose and content focus. These are parts of one brand ecosystem, not competing standalone businesses.
 
-## 7. Editorial Boundaries
+## 8. Editorial Boundaries
 
 RupeeRani provides educational information, not personalised investment, tax or legal advice. Financial content should use reliable sources, distinguish facts from opinions, disclose relevant limitations and avoid guaranteeing returns or outcomes.
 
 The brand will not present untested ideas as proven strategies or claim audience impact, business traction or revenue without evidence.
 
-## 8. Decision Filter
+## 9. Decision Filter
 
 Before publishing content, launching a feature or introducing a new initiative, ask:
 
