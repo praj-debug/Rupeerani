@@ -53,6 +53,19 @@ RupeeRani is the umbrella brand and intended main website. **StockRani is a bran
 
 These names describe the intended architecture, not proof that each property is already launched, independently validated or monetised.
 
+## Logo concepts
+
+These first-pass vector logo concepts establish a consistent visual family. They are draft assets and can be refined as the brand identity is validated.
+
+| Brand | Logo |
+|---|---|
+| RupeeRani | ![RupeeRani logo](assets/logos/rupeerani.svg) |
+| StockRani | ![StockRani logo](assets/logos/stockrani.svg) |
+| StockRani Decodes | ![StockRani Decodes logo](assets/logos/stockrani-decodes.svg) |
+| StockRani Studio | ![StockRani Studio logo](assets/logos/stockrani-studio.svg) |
+
+See [all brand assets](assets/README.md) and the [brand family guide](07-brand-family/README.md).
+
 ## Founder
 
 RupeeRani was initiated by **Prajakta Mane**, a FinTech Product Operations and Strategic Partnerships professional. Her experience around lending, financial products, customer journeys and operations informs the questions explored through this initiative.
@@ -84,7 +97,7 @@ RupeeRani was initiated by **Prajakta Mane**, a FinTech Product Operations and S
 
 This is an early-stage, founder-led project repository. The structure establishes how the work will be documented. It does not imply that every planned brand property, website feature, audience outcome or revenue stream is live.
 
-Track real updates in [Metrics and Progress](11-metrics-and-progress/README.md) and record priorities in the [Roadmap](12-roadmap/README.md).
+Track real updates in [Metrics and Progress](11-brand-family/README.md) and record priorities in the [Roadmap](12-roadmap/README.md).
 
 ## Repository map
 
