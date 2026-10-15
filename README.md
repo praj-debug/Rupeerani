@@ -51,8 +51,6 @@ RupeeRani was initiated by **Prajakta Mane**, a FinTech Product Operations and S
 - [GitHub](https://github.com/praj-debug)
 - [StockRani Instagram](https://www.instagram.com/stockrani/)
 
-**Founder portrait:** Add the approved founder photo to `assets/prajakta-mane-founder.jpg` when ready. Until the real asset is committed, this README intentionally does not display a placeholder as if it were the actual founder.
-
 ## What this repository will document
 
 1. **Start with the why:** the original idea, founder motivation, problems worth solving and decisions that shaped the brand.
