@@ -1,61 +1,66 @@
 # RupeeRani
 
-**A founder-led financial education brand built by Prajakta Mane.**
+**Financial clarity for the next generation.**  
+*A founder-led financial education initiative by Prajakta Mane.*
 
-RupeeRani is being built to make money decisions easier to understand for young Indians. This repository documents the journey from the earliest idea to a complete, useful and trustworthy brand: the founder story, purpose, audience, brand identity, content system, website, experiments, learning and long-term direction.
+RupeeRani is being built to make money decisions easier to understand for young Indians through practical, responsible financial education. This repository is the public project hub for the brand: its purpose, founder story, brand family, content system, experiments, product ideas and progress.
 
-> **Build-in-public principle:** This repository records real decisions and actual progress. Plans are labelled as plans, hypotheses as hypotheses, and results only when supported by evidence.
+> **Build in public, with evidence.** Plans are labelled as plans, hypotheses as hypotheses, and results only when supported by evidence.
+
+## Explore RupeeRani
+
+| Brand / project | Focus | Status |
+|---|---|---|
+| **RupeeRani** | Umbrella brand for accessible financial education | In development |
+| **StockRani** | Stock-market and personal-finance education | Evolving brand |
+| **StockRani Decodes** | Clear explainers on financial concepts, companies and fintech business models | Content-series concept |
+| **StockRani Studio** | Career and professional resources | Planned; scope to be validated |
+
+These labels describe the intended brand architecture; they do not imply that every product or channel is fully launched or monetised.
 
 ## Start here
 
-- [Founder story: why RupeeRani started](01-founder-story/README.md)
-- [Brand foundation: purpose, vision, mission and values](02-brand-foundation/README.md)
-- [Brand identity and messaging](03-brand-identity/README.md)
-- [Audience research](04-audience-research/README.md)
-- [Content strategy](05-content-strategy/README.md)
-- [Content calendar and production](06-content-calendar/README.md)
-- [Brand family](07-brand-family/README.md)
-- [Growth experiments](08-growth-experiments/README.md)
-- [Business model and future sustainability](09-business-model/README.md)
-- [Website and product roadmap](10-website-and-product/README.md)
-- [Metrics and progress log](11-metrics-and-progress/README.md)
-- [Roadmap](12-roadmap/README.md)
-- [Brand assets](assets/README.md)
+- [Founder story](01-founder-story/README.md) — why the project began
+- [Brand foundation](02-brand-foundation/README.md) — purpose, mission and values
+- [Brand identity](03-brand-identity/README.md) — visual language and messaging
+- [Audience research](04-audience-research/README.md) — who we want to serve and what we need to learn
+- [Content strategy](05-content-strategy/README.md) — topics, tone and publishing principles
+- [Content calendar](06-content-calendar/README.md) — planning and production
+- [Brand family](07-brand-family/README.md) — how the sub-brands fit together
+- [Growth experiments](08-growth-experiments/README.md) — discovery and distribution tests
+- [Business model](09-business-model/README.md) — sustainability hypotheses
+- [Website and product roadmap](10-website-and-product/README.md) — future public experiences
+- [Metrics and progress](11-metrics-and-progress/README.md) — measured results, with dates and sources
+- [Roadmap](12-roadmap/README.md) — priorities
+- [Brand assets](assets/README.md) — draft logos and identity files
+- [Founder and public profiles](FOUNDER.md) — public professional presence
+- [Collaborations and media](COLLABORATIONS.md) — partnership formats and contact
+- [Discoverability checklist](DISCOVERABILITY.md) — search, social and GitHub improvements
 
-## Why RupeeRani Exists
+## Why RupeeRani exists
 
-RupeeRani grew from founder Prajakta Mane's professional journey around financial services, lending and education loans. Seeing the financial decisions students and young adults have to navigate led her to think about how people can make better decisions when the underlying concepts are difficult to understand.
+The project grew from founder Prajakta Mane's professional experience across financial services, lending and education loans. The decisions students and young adults face around money can be confusing, especially when the terms and trade-offs are unexplained.
 
-StockRani began in August 2022 with a focus on stock-market education. The idea later expanded to broader personal finance, career resources and explainers about companies and business models. RupeeRani became the umbrella brand for that wider vision.
-
-The ambition is to go beyond disconnected tips and explain the what, why and how behind money concepts in clear, practical and responsible language. This is a founder-led motivation and an evolving hypothesis that will be tested through audience research and feedback.
+StockRani began in August 2022 with a focus on stock-market education. The idea expanded toward broader personal finance and accessible explainers, with RupeeRani as the umbrella brand. The goal is to explain the **what, why and how** behind real-world money concepts in language people can use.
 
 Read the [full founder story](01-founder-story/README.md).
 
-## The brand
+## Mission
 
-### Vision
+Make personal finance, credit, saving and investing easier to understand through clear, practical and responsible education.
 
-To help build a financially informed generation of young Indians who can make money decisions with greater clarity, confidence and independence.
+## Brand principles
 
-### Mission
+- **Clarity over hype:** explain concepts in plain language and show trade-offs.
+- **Education before promotion:** no guaranteed-return claims or misleading financial promises.
+- **Source-backed content:** cite credible sources for financial facts and time-sensitive information.
+- **Transparency:** disclose sponsorships, affiliate links and commercial relationships.
+- **Privacy by design:** avoid collecting sensitive personal or financial data without a clear need and appropriate safeguards.
+- **Learn in public:** distinguish ideas, plans, live work and measured outcomes.
 
-To make personal finance, credit, saving and investing easier to understand by explaining real-world money concepts in simple, practical and responsible language.
+## Brand identity
 
-### Brand architecture
-
-RupeeRani is the umbrella brand and intended main website. **StockRani is a brand within RupeeRani, not a separate website.**
-
-- **RupeeRani:** The umbrella brand for accessible financial education.
-- **StockRani:** Financial literacy and investing education content.
-- **StockRani Decodes:** An explanatory content series covering financial concepts, products, companies and fintech business models.
-- **StockRani Studio:** A planned space for career and professional resources. Its role and scope will be validated before launch.
-
-These names describe the intended architecture, not proof that each property is already launched, independently validated or monetised.
-
-## Logo concepts
-
-These first-pass vector logo concepts establish a consistent visual family. They are draft assets and can be refined as the brand identity is validated.
+These first-pass vector logos are draft concepts and may evolve as the brand is validated.
 
 | Brand | Logo |
 |---|---|
@@ -64,46 +69,39 @@ These first-pass vector logo concepts establish a consistent visual family. They
 | StockRani Decodes | ![StockRani Decodes logo](assets/logos/stockrani-decodes.svg) |
 | StockRani Studio | ![StockRani Studio logo](assets/logos/stockrani-studio.svg) |
 
-See [all brand assets](assets/README.md) and the [brand family guide](07-brand-family/README.md).
+See [brand assets](assets/README.md) and the [brand family guide](07-brand-family/README.md).
 
 ## Founder
 
-RupeeRani was initiated by **Prajakta Mane**, a FinTech Product Operations and Strategic Partnerships professional. Her experience around lending, financial products, customer journeys and operations informs the questions explored through this initiative.
+**Prajakta Mane** is the founder of RupeeRani and a FinTech Product Operations and Strategic Partnerships professional. Her experience with lending, financial products, customer journeys and operations informs the project's practical, consumer-focused lens.
 
 - [LinkedIn](https://www.linkedin.com/in/prajaktamane114/)
-- [GitHub](https://github.com/praj-debug)
-- [StockRani Instagram](https://www.instagram.com/stockrani/)
+- [GitHub profile](https://github.com/praj-debug)
+- [StockRani on Instagram](https://www.instagram.com/stockrani/)
+- [Founder profile and media information](FOUNDER.md)
 
-## What this repository will document
+## Collaboration
 
-1. **Start with the why:** the original idea, founder motivation, problems worth solving and decisions that shaped the brand.
-2. **Understand the audience:** needs, language, constraints, questions and feedback from young adults and early-career professionals.
-3. **Create a coherent brand:** positioning, messaging, identity, tone, content pillars and clear roles for each brand property.
-4. **Build a repeatable publishing system:** research, scripting, review, production, publishing, accessibility and repurposing.
-5. **Learn with evidence:** establish baselines, test specific hypotheses, record outcomes and adjust the strategy.
-6. **Build useful products and resources:** improve the website and explore resources only when audience needs justify them.
-7. **Work toward sustainability:** evaluate relevant future revenue options without compromising trust or pretending revenue already exists.
+RupeeRani is open to exploring relevant collaborations with financial-literacy initiatives, colleges and student communities, fintech and consumer-finance teams, creators, educators and organisations interested in practical money education.
 
-## Responsible finance content principles
+Potential formats include explainers, co-created content, webinars, workshops, research-informed resources and community sessions. All partnerships are subject to fit, editorial independence and transparent disclosure.
 
-- Education before promotion. No guaranteed-return claims or misleading financial promises.
-- Clear distinction between general information and personalised financial advice.
-- Credible, current sources for factual claims, with corrections when needed.
-- Transparent disclosures for sponsorships, affiliate links and commercial relationships.
-- Plain-language explanations, including risks, fees, eligibility and uncertainty where relevant.
-- Respect for user privacy and no collection of sensitive information without a clear need and proper safeguards.
+See [COLLABORATIONS.md](COLLABORATIONS.md) for partnership concepts and an enquiry brief.
 
 ## Current status
 
-This is an early-stage, founder-led project repository. The structure establishes how the work will be documented. It does not imply that every planned brand property, website feature, audience outcome or revenue stream is live.
+RupeeRani is an early-stage, founder-led project. This repository contains strategy, draft identity assets and plans for future work. It does **not** imply that every sub-brand, website feature, audience outcome or revenue stream is live.
 
-Track real updates in [Metrics and Progress](11-metrics-and-progress/README.md) and record priorities in the [Roadmap](12-roadmap/README.md).
+Check [Metrics and Progress](11-metrics-and-progress/README.md) for documented updates and [Roadmap](12-roadmap/README.md) for priorities.
 
 ## Repository map
 
 ```text
-rupeerani/
+Rupeerani/
 ├── README.md
+├── FOUNDER.md
+├── COLLABORATIONS.md
+├── DISCOVERABILITY.md
 ├── 01-founder-story/
 ├── 02-brand-foundation/
 ├── 03-brand-identity/
@@ -119,10 +117,6 @@ rupeerani/
 └── assets/
 ```
 
-## How to use this repository
-
-Each major area has a README explaining its purpose, current assumptions, working checklist and what evidence should be captured. Update files as decisions are made. Prefer dated notes and measurable observations over vague claims of progress.
-
 ## Disclaimer
 
-RupeeRani is an educational initiative. Its content is not a promise of financial outcomes or a substitute for an individual's professional financial, tax or legal advice. Financial products and regulations can change, so information should be checked against current, credible sources.
+RupeeRani provides educational information, not personalised financial, investment, tax or legal advice. Nothing here promises financial outcomes. Financial products, rates and regulations can change; verify current details with credible primary sources and appropriately qualified professionals.
