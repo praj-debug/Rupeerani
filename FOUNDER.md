@@ -17,7 +17,7 @@ This is a concise public-facing profile, not a complete CV. Professional roles a
 
 - [LinkedIn](https://www.linkedin.com/in/prajaktamane114/)
 - [GitHub](https://github.com/praj-debug)
-- [Instagram]([https://www.instagram.com/_mee_prajakta_/])
+- [Instagram](https://www.instagram.com/_mee_prajakta_/)
 - [RupeeRani repository](https://github.com/praj-debug/Rupeerani)
 
 ## Media, speaking and collaboration
