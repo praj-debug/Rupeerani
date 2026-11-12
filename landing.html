@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#f7f1e8">
+<title>Emergency Fund Tracker | StockRani</title>
+<meta name="description" content="A practical spreadsheet to plan your emergency fund, track savings and see your progress. By StockRani.">
+<style>
+:root{color-scheme:light dark;--bg:#f7f1e8;--paper:#fffdf8;--ink:#29212b;--muted:#716876;--plum:#45243f;--gold:#bd9651;--line:#e9dfd1;--soft:#f0e7dc}
+@media(prefers-color-scheme:dark){:root{--bg:#17131a;--paper:#211b25;--ink:#f6efe7;--muted:#c2b5c5;--plum:#d8b5d0;--gold:#d7b36c;--line:#3c3040;--soft:#302631}}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 Inter,system-ui,-apple-system,"Segoe UI",sans-serif}.wrap{width:min(1080px,calc(100% - 36px));margin:auto}
+header{display:flex;justify-content:space-between;align-items:center;padding:22px 0;border-bottom:1px solid var(--line)}.brand{font-weight:900;letter-spacing:.04em;color:var(--plum);text-decoration:none}.brand span{color:var(--gold)}.back{color:var(--muted);font-size:.9rem;text-decoration:none}
+.hero{padding:70px 0 48px;display:grid;grid-template-columns:1.05fr .95fr;gap:48px;align-items:center}.eyebrow{text-transform:uppercase;letter-spacing:.15em;font-size:.75rem;font-weight:800;color:var(--gold)}h1{font-size:clamp(2.7rem,6vw,5rem);line-height:1.02;letter-spacing:-.045em;color:var(--plum);margin:14px 0 18px}.lead{font-size:1.12rem;color:var(--muted);max-width:590px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin:26px 0}.btn{display:inline-flex;padding:13px 21px;border-radius:999px;text-decoration:none;font-weight:800;border:1px solid var(--plum);color:var(--plum)}.primary{background:var(--plum);color:#fff;border-color:var(--plum)}.note{font-size:.85rem;color:var(--muted)}
+.art{background:linear-gradient(145deg,var(--soft),var(--paper));border:1px solid var(--line);border-radius:28px;padding:24px;min-height:340px;display:grid;place-items:center}.jar{width:190px;height:220px;border:5px solid var(--gold);border-radius:24px 24px 42px 42px;position:relative;background:linear-gradient(180deg,transparent 15%,#bd965126 15%);display:flex;align-items:center;justify-content:center;color:var(--plum);font-weight:900;text-align:center;padding:20px}.jar:before{content:"";position:absolute;width:125px;height:17px;border-radius:8px;background:var(--gold);top:-14px}.coin{position:absolute;width:42px;height:42px;border-radius:50%;background:linear-gradient(135deg,#e7cb87,#a87b32);border:2px solid #a87b32;display:grid;place-items:center;color:#573d17;font-weight:900}.coin:nth-child(2){bottom:35px;left:30px}.coin:nth-child(3){bottom:75px;right:30px}.coin:nth-child(4){top:38px;right:35px}
+section{padding:48px 0;border-top:1px solid var(--line)}h2{font-size:clamp(1.8rem,4vw,2.7rem);line-height:1.1;color:var(--plum);margin:8px 0 22px}.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}.tile{background:var(--paper);border:1px solid var(--line);border-radius:18px;padding:22px}.tile b{display:block;color:var(--plum);margin-bottom:6px}.tile p,.muted{color:var(--muted);margin:0}.steps{padding-left:20px;color:var(--muted)}.footer{padding:28px 0 42px;color:var(--muted);font-size:.85rem}
+@media(max-width:760px){.hero{grid-template-columns:1fr;padding:48px 0 34px}.art{min-height:280px}.grid{grid-template-columns:1fr}header{gap:12px}}
+</style>
+</head>
+<body><div class="wrap">
+<header><a class="brand" href="https://praj-debug.github.io/Rupeerani/">RUPEERANI<span> ·</span></a><a class="back" href="https://praj-debug.github.io/Rupeerani/#explore-more">← Back to RupeeRani</a></header>
+<main>
+<section class="hero" style="border:0">
+<div><div class="eyebrow">StockRani · Practical money tools</div><h1>Build your financial safety net.</h1><p class="lead">A simple Emergency Fund Tracker to help you set a savings target, record contributions and withdrawals, and see how close you are to your goal.</p><div class="actions"><a class="btn primary" href="https://stockrani.gumroad.com/l/pnzyk">Get the tracker · $0.84</a><a class="btn" href="#inside">What's included</a></div><p class="note">Digital spreadsheet · Works with Excel and Google Sheets · Beginner-friendly</p></div>
+<div class="art" role="img" aria-label="Illustration of a savings jar and coins"><div class="jar">EMERGENCY<br>FUND<div class="coin">₹</div><div class="coin">₹</div><div class="coin">₹</div></div></div>
+</section>
+<section id="inside"><div class="eyebrow">A clearer view of your savings</div><h2>Your plan. Your progress. One simple sheet.</h2><div class="grid">
+<div class="tile"><b>Set your target</b><p>Use your monthly essential expenses and preferred number of months to calculate your emergency fund goal.</p></div>
+<div class="tile"><b>Track your progress</b><p>See your target, savings balance, remaining amount and progress at a glance.</p></div>
+<div class="tile"><b>Log contributions and withdrawals</b><p>Record money going into and out of your emergency fund. Withdrawals reduce the running balance automatically.</p></div>
+<div class="tile"><b>Plan your monthly savings</b><p>Set a monthly savings goal and estimate how long it may take to reach your target.</p></div>
+</div></section>
+<section><div class="eyebrow">Get started</div><h2>From download to first savings entry.</h2><ol class="steps"><li>Purchase and download the tracker from Gumroad.</li><li>Open the file in Excel, or upload it to Google Drive and open it with Google Sheets.</li><li>Enter your plan details and start recording contributions and withdrawals.</li></ol><div class="actions"><a class="btn primary" href="https://stockrani.gumroad.com/l/pnzyk">Get the Emergency Fund Tracker</a></div><p class="note">Need help? Email <a href="mailto:connect.rupeerani@gmail.com">connect.rupeerani@gmail.com</a>.</p></section>
+</main><footer class="footer">© 2026 StockRani · Because every rupee has a story. <br>Educational budgeting tool only; not personalised financial advice.</footer>
+</div></body></html>
