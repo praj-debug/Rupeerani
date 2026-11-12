@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#173d35">
+<title>Free Multi-Loan EMI Calculator | StockRani by RupeeRani</title>
+<meta name="description" content="Calculate and compare monthly EMIs across multiple loans. Add different loan amounts, interest rates and tenures in one free multi-loan EMI calculator.">
+<style>
+:root{--green:#173d35;--lime:#d9ed9a;--paper:#f7f7f0;--ink:#1c2924;--muted:#61716a;--line:#dfe5d9;--white:#fff;--soft:#edf2e6}
+*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.6 Inter,system-ui,sans-serif}.wrap{width:min(1120px,calc(100% - 32px));margin:auto}header{display:flex;justify-content:space-between;gap:14px;align-items:center;padding:20px 0;border-bottom:1px solid var(--line);flex-wrap:wrap}.brand{font-weight:950;letter-spacing:.05em;color:var(--green);text-decoration:none}.muted{color:var(--muted)}main{padding:48px 0 64px}.eyebrow{text-transform:uppercase;letter-spacing:.15em;font-size:.74rem;font-weight:850;color:#66816e}h1{font-size:clamp(2.4rem,5vw,4.2rem);line-height:1.05;letter-spacing:-.04em;color:var(--green);margin:12px 0}.lead{max-width:760px;color:var(--muted);font-size:1.08rem}.panel{background:var(--white);border:1px solid var(--line);border-radius:20px;padding:22px;margin:24px 0;box-shadow:0 8px 30px #173d3509}.panel-head{display:flex;justify-content:space-between;gap:12px;align-items:center;flex-wrap:wrap}h2{color:var(--green);margin:0 0 12px;font-size:1.35rem}.btn{border:1px solid var(--green);background:var(--green);color:white;border-radius:999px;padding:10px 16px;font:inherit;font-weight:800;cursor:pointer}.btn.secondary{background:white;color:var(--green)}.btn.remove{background:white;color:#9b3b35;border-color:#e5c9c6;padding:7px 12px;font-size:.85rem}.loan{border:1px solid var(--line);border-radius:16px;padding:18px;margin-top:15px;background:#fcfdf9}.loan-top{display:flex;justify-content:space-between;gap:10px;align-items:center;margin-bottom:12px}.loan-top strong{color:var(--green)}.fields{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}.field label{display:block;font-size:.82rem;font-weight:750;color:var(--muted);margin-bottom:5px}.field input,.field select{width:100%;min-width:0;padding:11px;border:1px solid #cfd9d0;border-radius:10px;background:white;color:var(--ink);font:inherit}.results{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}.metric{background:var(--soft);border-radius:14px;padding:15px}.metric span{display:block;color:var(--muted);font-size:.78rem;font-weight:750}.metric strong{display:block;color:var(--green);font-size:1.25rem;margin-top:4px;overflow-wrap:anywhere}.loan-result{border-top:1px solid var(--line);padding:15px 0}.loan-result:first-child{border-top:0}.loan-result h3{margin:0 0 8px;color:var(--green)}.loan-result p{margin:4px 0;color:var(--muted);font-size:.92rem}.table-wrap{overflow:auto;margin-top:12px}table{width:100%;border-collapse:collapse;min-width:680px;font-size:.88rem}th,td{padding:9px 10px;border-bottom:1px solid var(--line);text-align:right;white-space:nowrap}th{background:var(--green);color:white}th:first-child,td:first-child{text-align:center}td:nth-child(2){text-align:left}.note{background:#fff8e7;border:1px solid #eadcb8;border-radius:12px;padding:14px;color:#65552e;font-size:.88rem}.actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:16px}.foot{border-top:1px solid var(--line);padding:22px 0 36px;color:var(--muted);font-size:.84rem}
+@media(max-width:800px){.fields{grid-template-columns:repeat(2,minmax(0,1fr))}.results{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:480px){.fields,.results{grid-template-columns:1fr}.panel{padding:16px}.loan{padding:13px}}
+</style>
+</head>
+<body><div class="wrap">
+<header><a class="brand" href="index.html">RUPEERANI · STOCKRANI</a><a class="muted" href="shop.html">← Back to free tools</a></header>
+<main>
+<div class="eyebrow">StockRani · Free calculator</div>
+<h1>One place for all your EMIs.</h1>
+<p class="lead">Add every active loan with its own outstanding balance, interest rate and remaining tenure. See each monthly EMI, your combined monthly commitment and a repayment schedule for every loan.</p>
+<section class="panel">
+<div class="panel-head"><h2>Your loans</h2><button class="btn" id="addLoan" type="button">+ Add another loan</button></div>
+<div id="loans"></div>
+<div class="actions"><button class="btn" id="calculate" type="button">Calculate my EMIs</button><button class="btn secondary" id="reset" type="button">Reset calculator</button></div>
+</section>
+<section class="panel" id="summary" aria-live="polite">
+<h2>Your combined EMI snapshot</h2>
+<div class="results">
+<div class="metric"><span>Active loans</span><strong id="loanCount">1</strong></div>
+<div class="metric"><span>Combined monthly EMI</span><strong id="combinedEmi">₹0</strong></div>
+<div class="metric"><span>Total outstanding principal</span><strong id="totalPrincipal">₹0</strong></div>
+<div class="metric"><span>Estimated total interest</span><strong id="totalInterest">₹0</strong></div>
+</div>
+<div id="loanResults"></div>
+</section>
+<div class="note"><strong>Important:</strong> This calculator provides an estimate using a fixed annual interest rate and monthly reducing-balance method. Actual lender schedules may differ because of daily interest calculations, floating-rate changes, fees, prepayments, payment dates and rounding. It is an educational planning tool, not a lender-issued repayment statement or financial advice.</div>
+</main>
+<footer class="foot">© 2026 StockRani · Because every rupee has a story. Your entries are calculated in your browser and are not sent to RupeeRani.</footer>
+</div>
+<script>
+(function(){
+const loansEl=document.getElementById('loans');
+let nextId=0;
+const money=n=>new Intl.NumberFormat('en-IN',{style:'currency',currency:'INR',maximumFractionDigits:2}).format(Number.isFinite(n)?n:0);
+function addLoan(data={}){
+ const id=++nextId, card=document.createElement('div');card.className='loan';card.dataset.id=id;
+ card.innerHTML='<div class="loan-top"><strong>Loan '+id+'</strong><button type="button" class="btn remove">Remove loan</button></div>'+
+ '<div class="fields">'+
+ '<div class="field"><label>Loan / lender name</label><input data-k="name" type="text" placeholder="e.g. Home loan" value="'+(data.name||'')+'"></div>'+
+ '<div class="field"><label>Outstanding principal (₹)</label><input data-k="principal" type="number" min="0" step="0.01" value="'+(data.principal??500000)+'"></div>'+
+ '<div class="field"><label>Annual interest rate (%)</label><input data-k="rate" type="number" min="0" max="100" step="0.01" value="'+(data.rate??12)+'"></div>'+
+ '<div class="field"><label>Remaining tenure (months)</label><input data-k="months" type="number" min="1" max="600" step="1" value="'+(data.months??60)+'"></div>'+
+ '</div>';
+ card.querySelector('.remove').addEventListener('click',()=>{if(loansEl.children.length===1){alert('Keep at least one loan in the calculator.');return;}card.remove();renumber();calculate();});
+ loansEl.appendChild(card);renumber();
+}
+function renumber(){[...loansEl.children].forEach((el,i)=>el.querySelector('.loan-top strong').textContent='Loan '+(i+1));}
+function readLoans(){
+ return [...loansEl.children].map((el,i)=>{
+ const v=k=>el.querySelector('[data-k="'+k+'"]').value;
+ const principal=Number(v('principal')),rate=Number(v('rate')),months=Number(v('months'));
+ if(!(principal>0)||rate<0||rate>100||!(months>=1&&months<=600)||!Number.isInteger(months))throw new Error('Check Loan '+(i+1)+': enter a principal above zero, a rate from 0 to 100%, and a whole-number tenure from 1 to 600 months.');
+ const monthlyRate=rate/1200;
+ const emi=monthlyRate===0?principal/months:principal*monthlyRate*Math.pow(1+monthlyRate,months)/(Math.pow(1+monthlyRate,months)-1);
+ return {name:v('name').trim()||'Loan '+(i+1),principal,rate,months,emi};
+ });
+}
+function buildSchedule(loan){
+ let balance=loan.principal,totalInterest=0,rows='';
+ for(let n=1;n<=loan.months;n++){
+  const interest=balance*loan.rate/1200;
+  const payment=Math.min(loan.emi,balance+interest);
+  const principal=Math.min(balance,payment-interest);
+  const closing=Math.max(0,balance-principal);
+  totalInterest+=interest;
+  rows+='<tr><td>'+n+'</td><td>'+money(balance)+'</td><td>'+money(payment)+'</td><td>'+money(interest)+'</td><td>'+money(principal)+'</td><td>'+money(closing)+'</td></tr>';
+  balance=closing;
+ }
+ return {totalInterest,rows};
+}
+function calculate(){
+ try{
+  const loans=readLoans();let combined=0,totalPrincipal=0,totalInterest=0;
+  const html=loans.map((loan,i)=>{
+   const s=buildSchedule(loan);combined+=loan.emi;totalPrincipal+=loan.principal;totalInterest+=s.totalInterest;
+   return '<article class="loan-result"><h3>'+escapeHtml(loan.name)+'</h3><p>Monthly EMI: <strong>'+money(loan.emi)+'</strong> · Interest rate: '+loan.rate+'% · Tenure: '+loan.months+' months</p><p>Estimated total repayment: <strong>'+money(loan.principal+s.totalInterest)+'</strong> · Total interest: <strong>'+money(s.totalInterest)+'</strong></p><details><summary>View '+loan.months+'-month repayment schedule</summary><div class="table-wrap"><table><thead><tr><th>EMI No.</th><th>Opening balance</th><th>EMI due</th><th>Interest</th><th>Principal</th><th>Closing balance</th></tr></thead><tbody>'+s.rows+'</tbody></table></div></details></article>';
+  }).join('');
+  document.getElementById('loanCount').textContent=loans.length;
+  document.getElementById('combinedEmi').textContent=money(combined);
+  document.getElementById('totalPrincipal').textContent=money(totalPrincipal);
+  document.getElementById('totalInterest').textContent=money(totalInterest);
+  document.getElementById('loanResults').innerHTML=html;
+ }catch(e){alert(e.message);}
+}
+function escapeHtml(s){return s.replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
+document.getElementById('addLoan').addEventListener('click',()=>addLoan({principal:'',rate:'',months:''}));
+document.getElementById('calculate').addEventListener('click',calculate);
+document.getElementById('reset').addEventListener('click',()=>{loansEl.innerHTML='';nextId=0;addLoan({});calculate();});
+addLoan({});calculate();
+})();
+</script></body></html>
